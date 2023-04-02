@@ -1,0 +1,139 @@
+/* Custom font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* Main background color */
+body {
+  background-color: #f9f9f9;
+  font-family: 'Roboto', sans-serif;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+  }
+  
+/* Container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* Dialogue box */
+.dialogue-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 40px;
+  max-width: 500px;
+  width: 100%;
+}
+.dialogue-box p.question {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.dialogue-box .buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.dialogue-box .buttons button:hover {
+  background-color: #218838;
+}
+/* "Please..." box */
+.please-box {
+  display: none;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 40px;
+  max-width: 500px;
+  width: 100%;
+}
+.please-box p.please-text {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.please-box .buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #dc3545;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.please-box .buttons button:hover {
+  background-color: #c82333;
+}
+/* Video box */
+.video-box {
+  display: none;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 40px;
+  max-width: 500px;
+  width: 100%;
+}
+.video-box p.video-text {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.video-box .video {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+  margin-bottom: 16px;
+}
+  .video-box {
+    display: none;
+  }
+  
+  .question {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .please-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .video-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .buttons {
+    margin-top: 16px;
+  }
+  
